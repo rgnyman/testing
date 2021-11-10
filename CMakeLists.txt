@@ -8,7 +8,7 @@ add_executable(Refactoring_run main.cpp)
 
 include_directories(movie)
 add_subdirectory(movie)
-add_subdirectory(rf-tests)
+#add_subdirectory(rf-tests)
 
 target_link_libraries(Refactoring_run movie_lib)
 
